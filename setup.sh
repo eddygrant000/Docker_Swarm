@@ -9,3 +9,7 @@ apt-get install docker-ce -y
 systemctl start docker
 systemctl enable docker
 usermod -aG docker ubuntu
+docker swarm init --help
+# docker swarm init --describe-addr
+
+# copy join-token and execute this command on worker node
